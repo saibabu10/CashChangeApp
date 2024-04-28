@@ -19,7 +19,7 @@ const SignIn = ({ navigation, fontFamily }) => {
   return (
     <View style={styles.container}>
       <TouchableOpacity style={styles.backButton} onPress={handleGoBack}>
-        <Image source={require('/Users/palani/Documents/ReactNative-APPS/JustGlee-APP/CashChange/CashChange/backbtn.png')} style={styles.backIcon} />
+        <Image source={require('../assets/backbtn.png')} style={styles.backIcon} />
       </TouchableOpacity>
       <Text style={[styles.text, { fontFamily: fontFamily, color: 'rgba(217, 46, 200, 1)', letterSpacing: 2 }]}>SignIn</Text>
       <View style={styles.inputContainer}>
